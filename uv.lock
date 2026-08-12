@@ -459,6 +459,7 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "black" },
+    { name = "google-genai" },
     { name = "isort" },
     { name = "langchain" },
     { name = "langchain-google-genai" },
@@ -468,6 +469,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "black", specifier = ">=26.5.1" },
+    { name = "google-genai", specifier = ">=2.17.0" },
     { name = "isort", specifier = ">=8.0.1" },
     { name = "langchain", specifier = ">=1.3.14" },
     { name = "langchain-google-genai", specifier = ">=4.3.3" },
